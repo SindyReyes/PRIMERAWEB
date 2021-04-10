@@ -1,31 +1,31 @@
 
-nav{
+nav {
     background-color: black;
     color: goldenrod;
 }
 
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
 }
 
-.menu li{
+.menu li {
     width: 10%;
     list-style: none;
 }
 
-.menu a{
+.menu a {
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
 }
 
-.logo{
+.logo {
     flex-grow: 3;
 }
 
-.logo img{
+.logo img {
     width: 20%;
     height: auto;
 }
