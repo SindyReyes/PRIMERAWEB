@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="./css/menu.css" rel="stylesheet" type="text/css">
+        <link href="./css/estilos.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+        <nav>
+            <ul class="menu">
+                <li class="logo">
+                    <a href="#"> 
+                        <img src="./img/logo.png">
+                    </a>
+                </li>
+                <li> <a href="./index.html">Inicio</a></li>
+                <li> <a href="./contactenos.html">Contacto</a></li>
+            </ul>
+        </nav>  
+        
+        
+        <div>
+            <h1> Contacto con Rick and Morty</h1>
+
+            <div>
+                <form>
+                    <div> 
+                        <div>
+                            <div>
+                                <label> Tipo de mensaje</label>
+                            </div>
+                            <select id="tipo" name="tipo" required>
+                                <option value=""> Seleccione una opción</option>
+                                <option value="cotizacion"> Cotización </option>
+                                <option value="saludo"> Salud </option>
+                                <option value="queja"> Queja </option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <div>
+                                <label> Nombres </label>
+                            </div>
+                            <input type="text" id="name" name="name" placeholder="Ingrese sus nombres"  required> 
+                        </div>
+
+                        <div>
+                            <div>
+                                <label> Email </label>
+                            </div>
+                            <input type="text" id="email" name="email" placeholder="Ingrese su correo"  required> 
+                        </div>
+
+                        <div>
+                            <div>
+                                <label> Edad </label>
+                            </div>
+                            <input type="number" id="edad" name="edad" placeholder="Ingrese su edad"  required> 
+                        </div>
+
+                        <div>
+                            <div>
+                                <label> Teléfono </label>
+                            </div>
+                            <input type="text" id="telefono" name="telefono" placeholder="Ingrese su telefono"  required> 
+                        </div>
+                        
+                        <div>
+                            <div>
+                                <label> Comentarios </label>
+                            </div>
+                            <textarea id="comment" name="comment" cols="40" rows="4" placeholder="Escriba su comentario aqui" required> </textarea>
+                        </div>
+
+                        <div>
+                            <div>
+                                <label> ¿Qué estudias? </label>
+                            </div>
+                            <input type="checkbox" id="chk1" name="chk1" value="html"> HTML
+                            <input type="checkbox" id="chk2" name="chk2" value="css"> CSS
+                            <input type="checkbox" id="chk3" name="chk3" value="php"> PHP
+
+                        </div>
+
+                        <div>
+                            <div>
+                                <label> ¿Qué te gusta hacer? </label>
+                            </div>
+                            <input type="radio" id="radio1" name="radio" value="html"> Jugar
+                            <input type="radio" id="radio2" name="radio" value="css"> Ver TV
+                            <input type="radio" id="radio2" name="radio" value="php"> Programar
+                            
+                        </div>
+
+                        <div>
+                            <div>
+                                <button type="submit" onclick="validardatos()"> Enviar Datos </button>
+                            </div>
+                            
+                            
+                        </div>
+
+
+
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+
+
+        <footer>
+            <p> Creado por Sindy Reyes</p>
+        </footer>
+
+        <script src="./js/script.js"></script> 
+
+     </body>
+ </html>        
